@@ -10,6 +10,8 @@ A helper web-app which talks to one or more [Dex Identity services](https://gith
 
 ![Index Page](examples/index-page.png)
 
+---
+
 ![Token Info](examples/token-info.png)
 
 # Getting Started

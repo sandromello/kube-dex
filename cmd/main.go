@@ -10,7 +10,6 @@ import (
 	"log"
 	"net"
 	"net/http"
-	"os"
 	"path"
 	"path/filepath"
 	"time"
@@ -22,7 +21,6 @@ import (
 )
 
 var cfg server.Config
-var rootDir, _ = os.Getwd()
 
 // return an HTTP client which trusts the provided root CAs.
 func httpClientForRootCAs(rootCAs string) (*http.Client, error) {
