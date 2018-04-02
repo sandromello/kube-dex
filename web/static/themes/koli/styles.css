@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+a {
+  color: #71C1F1;
+}
+
+hr {
+  border-top: 0.1px solid #DEDEDF;
+}
+
+pre {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+button:focus {
+  outline: 1px;
+}
+
+.theme-body {
+  background-color: #fff;
+  color: #333;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.theme-container {
+  margin: 45px;
+}
+
+.theme-navbar {
+  background-color: rgb(23, 18, 38);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  color: #333;
+  font-size: 13px;
+  font-weight: 100;
+  height: 46px;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.theme-navbar__logo-wrap {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  padding: 10px 15px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.theme-navbar__logo {
+  height: 100%;
+  max-height: 25px;
+}
+
+.theme-text-header {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgb(121, 121, 121);
+  padding-bottom: 3px;
+}
+
+.theme-text-container {
+  padding-bottom: 20px;
+}
+
+.theme-btn--primary {
+  background-color: rgb(62, 38, 70);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  min-width: 180px;
+  cursor: pointer;
+  padding: 9px 12px;
+  font-weight: bold;
+}
+
+.theme-btn--primary:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.theme-btn-icon--signout {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.938);
+  display: inline-block;
+  -webkit-mask: url(../../img/icons/sign-in-alt.svg);
+  mask: url(../../img/icons/sign-in-alt.svg);
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+.theme-btn-icon--signout:hover {
+  background-color: white;
+}
+
+.theme-block-info {
+  padding-left: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0, 0, 0, 0.075);
+  background: rgba(0, 0, 0, 0.025);
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.theme-groups-label {
+  color: white;
+  padding: 6px;  
+  border-radius: 4px;
+  font-size: 11px;
+  background-color: rgba(232, 84, 92);
+}
